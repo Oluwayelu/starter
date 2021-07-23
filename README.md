@@ -1,9 +1,9 @@
-# nextjs-typescript-starter-with-firebase
+# YeLu Tech NextJS Firebase Starter Template
 
 ## create project
 
 ```bash
-npx create-next-app app --example "https://github.com/redimpulz/nextjs-typescript-starter-with-firebase"
+npx create-next-app app --example "https://github.com/yelu-tech/starter"
 ```
 
 ## deploy
@@ -14,9 +14,9 @@ npm run deploy
 
 ## features
 
-* Next.js
-* TypeScript
-* ESlint
-* Prettier
-* VScode Extentions
-* Firebase Deployment
+- Next.js
+- TypeScript
+- ESlint
+- Prettier
+- VScode Extentions
+- Firebase Deployment
