@@ -2,16 +2,12 @@ import React from 'react';
 import { GetStaticProps } from 'next';
 import Link from 'next/link';
 
-import { User } from 'interfaces';
+import { User, UserProps } from 'interfaces';
 import { sampleUserData } from 'utils/sample-data';
 import Layout from 'components/Layout';
 import List from 'components/List';
 
-type Props = {
-  items: User[];
-};
-
-const WithStaticProps = ({ items }: Props) => (
+const WithStaticProps = ({ items }: UserProps) => (
   <Layout title="Users List | Next.js + TypeScript Example">
     <h1>Users List</h1>
     <p>

@@ -8,3 +8,12 @@ export type User = {
   id: number;
   name: string;
 };
+
+export type UserProps = {
+  items: User[];
+};
+
+export type UserDetailProps = {
+  item?: User;
+  errors?: string;
+};
